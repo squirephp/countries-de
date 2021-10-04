@@ -1,7 +1,9 @@
 {
     "name": "squirephp/countries-de",
     "description": "A library containing the German translation of Squire's Country model.",
-    "keywords": ["squire"],
+    "keywords": [
+        "squire"
+    ],
     "license": "MIT",
     "homepage": "https://github.com/squirephp",
     "support": {
@@ -15,10 +17,10 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
-        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
-        "squirephp/countries": "^2.0",
-        "squirephp/repository": "^2.0"
+        "php": "^8.0",
+        "illuminate/support": "^8.0",
+        "squirephp/countries": "self.version",
+        "squirephp/repository": "self.version"
     },
     "autoload": {
         "psr-4": {
